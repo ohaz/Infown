@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var interval = 10000;
+    var interval = 600000; // 10 Minutes
     var refresh = function () {
         $.ajax({
             url: "/weather/",
