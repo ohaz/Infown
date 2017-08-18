@@ -1,7 +1,19 @@
-<div>
-    <h1>Weather in {{ location }}:</h1>
-    <img src="{{ icon }}" alt="{{ icon_alt }}"><br>
-    Temperature: {{ temp }}°C<br>
-    Wind: {{ wind_kph }} km/h<br>
-    Niederschlag: {{ precip }} mm<br>
+<div class="c_card u-high">
+    <div class="c-card__item c-card__item--brand">
+        <h1 class="c-heading">Weather in {{ location }}:</h1>
+    </div>
+    <div class="c-card__item c-card__item--info">
+        <p class="c-paragraph">
+            <img src="{{ icon }}" alt="{{ icon_alt }}">
+        </p>
+        <p class="c-paragraph">
+            Temperature: {{ temp }}°C
+        </p>
+        <p class="c-paragraph">
+            Wind: {{ wind_kph }} km/h
+        </p>
+        <p class="c-paragraph">
+            Niederschlag: {{ precip }} mm
+        </p>
+    </div>
 </div>

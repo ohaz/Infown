@@ -1,3 +1,9 @@
 body {
     font-family: 'Palanquin', sans-serif;
+    font-size: x-large;
+    background: black;
+}
+
+a {
+    color: black;
 }
