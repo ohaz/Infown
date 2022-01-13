@@ -1,2 +1,2 @@
-Flask==0.10.1
-tornado==4.5.1
+Flask==0.12.3
+tornado==5.1
